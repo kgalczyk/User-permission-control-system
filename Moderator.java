@@ -1,9 +1,14 @@
-class Moderator extends RegularUser {
-    public Moderator(String username) {
-        super(username);
+public class Moderator extends User implements Permission {
+    public Moderator(String id, String name) {
+        super(id, name, "Moderator");
     }
 
-    public void deleteComment() {
-        System.out.println(username + " usunął komentarz.");
-    }
+    @Override
+    public boolean canView() { return true; }
+
+    @Override
+    public boolean canEdit() { return true; }
+
+    @Override
+    public boolean canDelete() { return false; }
 }

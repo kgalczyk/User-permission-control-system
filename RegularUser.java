@@ -1,15 +1,14 @@
-class RegularUser extends User {
-    public RegularUser(String username) {
-        super(username);
+public class RegularUser extends User implements Permission {
+    public RegularUser(String id, String name) {
+        super(id, name, "RegularUser");
     }
 
     @Override
-    public void accessResource() {
-        System.out.println(username + " ma dostęp do podstawowych funkcji.");
-    }
+    public boolean canView() { return true; }
 
     @Override
-    protected boolean checkAccess() {
-        return false;
-    }
+    public boolean canEdit() { return false; }
+
+    @Override
+    public boolean canDelete() { return false; }
 }
