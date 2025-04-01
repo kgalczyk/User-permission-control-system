@@ -11,4 +11,9 @@ public class Moderator extends User implements Permission {
 
     @Override
     public boolean canDelete() { return false; }
+
+    @Override
+    public void displayPermissions() {
+        System.out.println("Moderator: Może przeglądać i edytować, ale nie usuwać");
+    }
 }

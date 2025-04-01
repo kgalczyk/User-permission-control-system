@@ -10,6 +10,7 @@ public class AccessControl {
 
     public void showAllUsers() {
         for (User user : users) {
+            user.displayPermissions(); // -- polimofrizm tutaj wykorzystujemy
             user.performAction();
             System.out.println("-------------------");
         }

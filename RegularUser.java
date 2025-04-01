@@ -11,4 +11,9 @@ public class RegularUser extends User implements Permission {
 
     @Override
     public boolean canDelete() { return false; }
+
+    @Override
+    public void displayPermissions() {
+        System.out.println("Użytkownik: Tylko przeglądanie treści");
+    }
 }

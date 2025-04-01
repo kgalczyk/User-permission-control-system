@@ -11,4 +11,9 @@ public class Admin extends User implements Permission {
 
     @Override
     public boolean canDelete() { return true; }
+
+    @Override
+    public void displayPermissions() {
+        System.out.println("Admin: Pełne uprawnienia (przeglądanie, edycja, usuwanie)");
+    }
 }

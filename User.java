@@ -23,6 +23,9 @@ public abstract class User {
         }
     }
 
+    // Metoda polimorficzna - nadpisywana w klasach potomnych
+    public abstract void displayPermissions();
+
     public void showInfo() {
         System.out.println("Użytkownik: " + name + " (Rola: " + role + ")");
     }
