@@ -9,8 +9,12 @@ public abstract class User {
         this.role = role;
     }
 
+    public String getName() {
+        return name;
+    }
+
     // Metoda szablonowa (Template Method)
-    public final void performAction() {
+    public void performAction() {
         showInfo();
         if (canView()) {
             System.out.println("Możesz przeglądać treści.");

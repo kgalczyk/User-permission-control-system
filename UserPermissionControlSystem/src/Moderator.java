@@ -1,4 +1,4 @@
-public class Moderator extends User implements Permission {
+public class Moderator extends User implements Permission, ManageUsers {
     public Moderator(String id, String name) {
         super(id, name, "Moderator");
     }
@@ -11,6 +11,16 @@ public class Moderator extends User implements Permission {
 
     @Override
     public boolean canDelete() { return false; }
+
+    @Override
+    public void addUser(String id, String name) {
+        System.out.println("Moderator: Dodano użytkownika " + name);
+    }
+
+    @Override
+    public void removeUser(String id) {
+        System.out.println("Moderator: Usunięto użytkownika o ID " + id);
+    }
 
     @Override
     public void displayPermissions() {

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/User-permission-control-system.iml" filepath="$PROJECT_DIR$/.idea/User-permission-control-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserPermissionControlSystem/UserPermissionControlSystem.iml" filepath="$PROJECT_DIR$/UserPermissionControlSystem/UserPermissionControlSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadania/zadania.iml" filepath="$PROJECT_DIR$/zadania/zadania.iml" />
     </modules>
   </component>
 </project>
