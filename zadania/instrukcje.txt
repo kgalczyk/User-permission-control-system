@@ -1,0 +1,6 @@
+1. Klasy Triangle, Square oraz Circle dziedziczą po klasie Shape.
+2. Klasa EquilateralTriangle dziedziczy po klasie Triangle.
+3. Zilustruj zachowanie wzorzca Template Method za pomocą metody 'public final void processShape()'.
+4. Pokaż działanie polimorfizmu na zasadzie metody 'public void getInfo()' oraz w przynajmniej jednej klasie potomnej przeciąż tę metodę, aby ukazać zjawisko Overloadingu.
+5. Nadpisz metody 'getArea()' oraz 'getPerimeter()' w klasach potomnych tak, aby poprawnie zwracały wyniki dla danych figur. Każdorazowo zastosuj adnotację @Override.
+6. Edytuj interfejs 'ShapeMethods' w taki sposób, aby jego metody miały domyślne działanie.
