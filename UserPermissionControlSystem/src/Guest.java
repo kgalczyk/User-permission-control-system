@@ -1,9 +1,11 @@
-public class Guest extends RegularUser {
+public final class Guest extends RegularUser {
     private int remainingViews = 3;
+    private final UserType userType;
 
     public Guest(String id, String name) {
         super(id, name);
         this.role = "Guest"; // nadpisujemy nazwę roli
+        this.userType = UserType.GUEST;
     }
 
     @Override
@@ -27,6 +29,6 @@ public class Guest extends RegularUser {
 
     @Override
     public void displayPermissions() {
-        System.out.println("Guest: Ograniczone przeglądanie (max 3 razy).");
+        userType.displayPermissions();
     }
 }

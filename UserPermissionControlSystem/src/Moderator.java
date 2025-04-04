@@ -1,29 +1,23 @@
-public class Moderator extends User implements Permission, ManageUsers {
+public class Moderator extends User {
+    private final UserType userType;
+    private final ModeratorPermissions moderatorPermissions;
     public Moderator(String id, String name) {
         super(id, name, "Moderator");
+        this.userType = UserType.MODERATOR;
+        this.moderatorPermissions = new ModeratorPermissions();
     }
 
     @Override
-    public boolean canView() { return true; }
+    public boolean canView() { return moderatorPermissions.canView(); }
 
     @Override
-    public boolean canEdit() { return true; }
+    public boolean canEdit() { return moderatorPermissions.canEdit(); }
 
     @Override
-    public boolean canDelete() { return false; }
-
-    @Override
-    public void addUser(String id, String name) {
-        System.out.println("Moderator: Dodano użytkownika " + name);
-    }
-
-    @Override
-    public void removeUser(String id) {
-        System.out.println("Moderator: Usunięto użytkownika o ID " + id);
-    }
+    public boolean canDelete() { return moderatorPermissions.canDelete(); }
 
     @Override
     public void displayPermissions() {
-        System.out.println("Moderator: Może przeglądać i edytować, ale nie usuwać");
+        userType.displayPermissions();
     }
 }

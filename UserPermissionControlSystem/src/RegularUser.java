@@ -1,6 +1,8 @@
-public class RegularUser extends User implements Permission {
+public sealed class RegularUser extends User implements Permission permits Guest {
+    private final UserType userType;
     public RegularUser(String id, String name) {
         super(id, name, "RegularUser");
+        this.userType = UserType.REGULAR_USER;
     }
 
     @Override
@@ -14,6 +16,6 @@ public class RegularUser extends User implements Permission {
 
     @Override
     public void displayPermissions() {
-        System.out.println("Użytkownik: Tylko przeglądanie treści");
+        userType.displayPermissions();
     }
 }

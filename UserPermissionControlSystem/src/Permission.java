@@ -1,5 +1,11 @@
 interface Permission {
-    boolean canView();
-    boolean canEdit();
-    boolean canDelete();
+    default boolean canView() {
+        return true;
+    };
+    default boolean canEdit() {
+        return false;
+    };
+    default boolean canDelete() {
+        return false;
+    };
 }

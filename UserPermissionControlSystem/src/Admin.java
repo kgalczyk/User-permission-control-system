@@ -1,6 +1,8 @@
 public class Admin extends User implements Permission, ManageUsers {
+    private final UserType userType;
     public Admin(String id, String name) {
         super(id, name, "Admin");
+        this.userType = UserType.ADMIN;
     }
 
     @Override
@@ -24,6 +26,6 @@ public class Admin extends User implements Permission, ManageUsers {
 
     @Override
     public void displayPermissions() {
-        System.out.println("Admin: Pełne uprawnienia (przeglądanie, edycja, usuwanie)");
+        userType.displayPermissions();
     }
 }
