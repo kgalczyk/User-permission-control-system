@@ -8,9 +8,9 @@ Poprawne odpowiedzi: A, B, D
 2. Jakie cechy ma klasa abstrakcyjna w Javie?
 A. Może zawierać metody abstrakcyjne
 B. Może zawierać metody z implementacją
-C. Można bezpośrednio utworzyć jej obiekt.
-D. Może dziedziczyć po innej klasie
-Poprawne odpowiedzi: A, B, D
+C. Może dziedziczyć po innej klasie
+D. Można bezpośrednio utworzyć jej obiekt.
+Poprawne odpowiedzi: A, B, C
 
 3. W których przypadkach mamy do czynienia z overloadingiem metod?
 A. Dwie metody mają tę samą nazwę, ale różne parametry
@@ -20,15 +20,15 @@ D. Metoda w klasie potomnej ma taką samą sygnaturę (nazwę i zestaw argument�
 Poprawne odpowiedzi: A
 
 4. Jakie zalety dają sealed classes w Javie?
-A. Kontrola nad tym, kto może dziedziczyć po danej klasie
+A. Możliwość używania wielu klas nadrzędnych
 B. Zwiększona czytelność i bezpieczeństwo kodu
-C. Możliwość używania wielu klas nadrzędnych
+C. Kontrola nad tym, kto może dziedziczyć po danej klasie
 D. Pozwalają na bardziej kontrolowane definiowanie relacji między klasami
-Poprawne odpowiedzi: A, B, D
+Poprawne odpowiedzi: B, C, D
 
 5. Które z poniższych stwierdzeń są prawdziwe dla polimorfizmu w Javie?
-A. Pozwala na wywoływanie metod klas potomnych przez referencję klasy bazowej
-B. Działa tylko z interfejsami
+A. Działa tylko z interfejsami
+B. Pozwala na wywoływanie metod klas potomnych przez referencję klasy bazowej
 C. Jest podstawą dynamicznego wiązania metod
 D. Występuje tylko przy użyciu klas abstrakcyjnych
-Poprawne odpowiedzi: A, C
+Poprawne odpowiedzi: B, C
