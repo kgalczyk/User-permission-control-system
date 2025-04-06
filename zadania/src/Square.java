@@ -1,27 +1,19 @@
-public non-sealed class Square extends Shape{
-    private double side;
-
-    public Square(double side) {
-        this.side = side;
+public class Square{
+    // przykład kompozycji
+    private Rectangle rectangle;
+    public Square(Rectangle rectangle) {
+        this.rectangle = rectangle;
     }
 
-    @Override
-    public double getArea() {
-        return side * side;
+    public double getArea(){
+        return rectangle.getArea();
     }
 
-    @Override
     public double getPerimeter() {
-        return 4 * side;
+        return rectangle.getPerimeter();
     }
 
-    @Override
-    public void getInfo() {
-        System.out.println("To jest kwadrat o boku " + side + ".");
-    }
-
-    // Overloading
-    public void getInfo(String label) {
-        System.out.println(label + ": kwadrat o boku " + side + ".");
+    public void getInfo(){
+        rectangle.getInfo();
     }
 }

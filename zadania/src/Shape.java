@@ -1,5 +1,5 @@
-// Tak zwana klasa szkieletowa
-public sealed abstract class Shape implements ShapeMethods permits Circle, Square, Triangle{
+// Klasa szkieletowa
+public sealed abstract class Shape implements ShapeMethods permits Circle, Rectangle, Triangle{
     public void getInfo(){
         System.out.println("To jest Figura.");
     }

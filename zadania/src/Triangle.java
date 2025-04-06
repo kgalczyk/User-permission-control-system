@@ -26,12 +26,4 @@ public non-sealed class Triangle extends Shape{
     public void getInfo() {
         System.out.println("To jest trojkat o bokach " + sideA + ", " + sideB + ", " + sideC + ".");
     }
-
-    // Overloading
-    public void getInfo(boolean showAreaPerimeter) {
-        getInfo();
-        if (showAreaPerimeter) {
-            System.out.printf("Pole: %.2f, Obwod: %.2f%n", getArea(), getPerimeter());
-        }
-    }
 }

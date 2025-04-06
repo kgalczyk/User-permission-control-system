@@ -16,12 +16,4 @@ public class EquilateralTriangle extends Triangle{ // wielokrotne dziedziczenie
     public void getInfo() {
         System.out.println("To jest trojkat rownoboczny o boku " + side + ".");
     }
-
-    // Overloading
-    public void getInfo(boolean showDetails) {
-        getInfo();
-        if (showDetails) {
-            System.out.printf("Pole: %.2f, Obwod: %.2f%n", getArea(), getPerimeter());
-        }
-    }
 }
