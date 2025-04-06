@@ -1,8 +1,8 @@
 # User-permission-control-system
 
 > [!IMPORTANT]
-> Klasy `Triangle`, `Rectangle` oraz `Circle` dziedziczą po klasie `Shape`.
-> Klasa `EquilateralTriangle` dziedziczy po klasie `Triangle`.
+ Klasy `Triangle`, `Rectangle` oraz `Circle` dziedziczą po klasie `Shape`.
+ Klasa `EquilateralTriangle` dziedziczy po klasie `Triangle`.
 
 
 
