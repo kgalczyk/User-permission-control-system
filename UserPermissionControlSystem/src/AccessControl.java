@@ -29,7 +29,7 @@ public class AccessControl {
     public void showAllUsers() {
         for (User user : users) {
             user.displayPermissions(); // Polimorfizm
-            user.performAction();
+            user.performAction(); // Polimorfizm
             System.out.println("-------------------");
         }
     }

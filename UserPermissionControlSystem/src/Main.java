@@ -6,8 +6,8 @@ public class Main {
         AccessControl system = new AccessControl();
 
         // Dodawanie użytkowników
-        system.addUser(new Admin("1", "Alicja"));
-        system.addUser(new Moderator("2", "Bartek"));
+        system.addUser(new Admin("1", "Alicja")); // user1
+        system.addUser(new Moderator("2", "Bartek")); // user2
         system.addUser(new RegularUser("3", "Celina"));
         system.addUser(new Guest("4", "Dawid"));
 
