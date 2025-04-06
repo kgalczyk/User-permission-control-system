@@ -1,0 +1,34 @@
+1. Które z poniższych zdań dotyczą interfejsów w Javie?
+A. Mogą zawierać metody default
+B. Mogą zawierać zmienne, które są domyślnie public static final
+C. Mogą mieć konstruktory
+D. Mogą dziedziczyć po wielu innych interfejsach
+Poprawne odpowiedzi: A, B, D
+
+2. Jakie cechy ma klasa abstrakcyjna w Javie?
+A. Może zawierać metody abstrakcyjne
+B. Może zawierać metody z implementacją
+C. Można bezpośrednio utworzyć jej obiekt.
+D. Może dziedziczyć po innej klasie
+Poprawne odpowiedzi: A, B, D
+
+3. W których przypadkach mamy do czynienia z overloadingiem metod?
+A. Dwie metody mają tę samą nazwę, ale różne parametry
+B. Dwie metody mają tę samą nazwę i tę samą listę parametrów, ale różne typy zwracane
+C. Dwie metody mają różne nazwy, ale ten sam kod
+D. Metoda w klasie potomnej ma taką samą sygnaturę (nazwę i zestaw argumentów) jak w klasie bazowej
+Poprawne odpowiedzi: A
+
+4. Jakie zalety dają sealed classes w Javie?
+A. Kontrola nad tym, kto może dziedziczyć po danej klasie
+B. Zwiększona czytelność i bezpieczeństwo kodu
+C. Możliwość używania wielu klas nadrzędnych
+D. Pozwalają na bardziej kontrolowane definiowanie relacji między klasami
+Poprawne odpowiedzi: A, B, D
+
+5. Które z poniższych stwierdzeń są prawdziwe dla polimorfizmu w Javie?
+A. Pozwala na wywoływanie metod klas potomnych przez referencję klasy bazowej
+B. Działa tylko z interfejsami
+C. Jest podstawą dynamicznego wiązania metod
+D. Występuje tylko przy użyciu klas abstrakcyjnych
+Poprawne odpowiedzi: A, C

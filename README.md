@@ -3,11 +3,12 @@
 > [!IMPORTANT]
  Klasy `Triangle`, `Rectangle` oraz `Circle` dziedziczą po klasie `Shape`.
  Klasa `EquilateralTriangle` dziedziczy po klasie `Triangle`.
+ Klasa `Square` nie dziedziczy po **żadnej** klasie.
 
 
 
 ## Zad 1.
-Pokaż działanie polimorfizmu na zasadzie metody `public void getInfo()` oraz w klasie potomnej `Circle` przeciąż tę metodę, aby ukazać zjawisko Overloadingu.
+Pokaż działanie polimorfizmu klas `Triangle`, `Rectangle` oraz `Circle` za pomocą metody `public void getInfo()`. W klasie `Circle` przeciąż tę metodę, aby ukazać zjawisko Overloadingu.
 ## Zad 2.
 Nadpisz metody `getArea()` oraz `getPerimeter()` w klasach potomnych tak, aby poprawnie zwracały wyniki dla danych figur. Każdorazowo zastosuj adnotację `@Override`.
 ## Zad 3.
