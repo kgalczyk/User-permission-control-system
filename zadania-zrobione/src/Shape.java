@@ -1,6 +1,5 @@
 // Klasa szkieletowa
-public abstract class Shape implements ShapeMethods {
-    // Funkcja pokazująca polimorfizm oraz przeładowanie
+public sealed abstract class Shape implements ShapeMethods permits Circle, Rectangle, Triangle{
     public void getInfo(){
         System.out.println("To jest Figura.");
     }

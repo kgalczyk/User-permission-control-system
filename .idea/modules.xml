@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/User-permission-control-system.iml" filepath="$PROJECT_DIR$/.idea/User-permission-control-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserPermissionControlSystem/UserPermissionControlSystem.iml" filepath="$PROJECT_DIR$/UserPermissionControlSystem/UserPermissionControlSystem.iml" />
-      <module fileurl="file://$PROJECT_DIR$/to do/to do.iml" filepath="$PROJECT_DIR$/to do/to do.iml" />
       <module fileurl="file://$PROJECT_DIR$/zadania/zadania.iml" filepath="$PROJECT_DIR$/zadania/zadania.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadania-zrobione/zadania-zrobione.iml" filepath="$PROJECT_DIR$/zadania-zrobione/zadania-zrobione.iml" />
     </modules>
   </component>
 </project>
