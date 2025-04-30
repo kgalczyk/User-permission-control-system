@@ -1,11 +1,13 @@
 # User-permission-control-system
 
+Prezentacja dla studentów tematu: Zawansowane Aspety Dziedziczenia na podstawie Systemu Uprawnień w Aplikacji.
+
+Zadania do wykonania podczas zajęć:
+
 > [!IMPORTANT]
  Klasy `Triangle`, `Rectangle` oraz `Circle` dziedziczą po klasie `Shape`.
  Klasa `EquilateralTriangle` dziedziczy po klasie `Triangle`.
  Klasa `Square` nie dziedziczy po **żadnej** klasie.
-
-
 
 ## Zad 1.
 Pokaż działanie polimorfizmu klas `Triangle`, `Rectangle` oraz `Circle` za pomocą metody `public void getInfo()`. W klasie `Circle` przeciąż tę metodę, aby ukazać zjawisko Overloadingu.
